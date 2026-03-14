@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="vi" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đào Thị Thu Huyền | Website Operations / E-commerce</title>
+  <meta name="description" content="Portfolio cá nhân của Đào Thị Thu Huyền – sinh viên năm cuối CNTT định hướng Website Operations & E-commerce." />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">HuyenDao</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav mx-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Học vấn</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Kỹ năng</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Kinh nghiệm</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Dự án</a></li>
+        </ul>
+        <button id="themeToggle" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7 reveal">
+          <span class="badge hero-badge mb-3 px-3 py-2 fs-6">
+            <i class="bi bi-stars me-1"></i> Website Operations / E-commerce
+          </span>
+          <h1 class="display-3 fw-bold mb-3">
+            Xin chào, tôi là<br/>
+            <span class="gradient-text">Đào Thị Thu Huyền</span>
+          </h1>
+          <p class="lead hero-desc mb-4">
+            "Tôi là sinh viên năm cuối ngành Công nghệ Thông tin với khả năng nghiên cứu, phân tích và quản lý nội dung website. Tôi mong muốn phát triển sự nghiệp trong lĩnh vực vận hành website và thương mại điện tử, góp phần nâng cao trải nghiệm người dùng và hiệu quả kinh doanh."
+          </p>
+          <div class="d-flex flex-wrap gap-3 mb-4 contact-chips">
+            <span class="chip"><i class="bi bi-telephone-fill me-1"></i>0703521574</span>
+            <span class="chip"><i class="bi bi-envelope-fill me-1"></i>huyendao22012003@gmail.com</span>
+            <span class="chip"><i class="bi bi-geo-alt-fill me-1"></i>TP Hồ Chí Minh</span>
+          </div>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#projects" class="btn btn-primary btn-lg px-4 rounded-pill shadow-sm">
+              <i class="bi bi-folder2-open me-2"></i>Xem dự án
+            </a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg px-4 rounded-pill">
+              <i class="bi bi-chat-dots me-2"></i>Liên hệ
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 d-flex justify-content-center reveal">
+          <div class="hero-avatar-wrapper">
+            <div class="hero-avatar">
+              <img src="../app/src/assets/portfolio.jpg" alt="Profile" />
+            </div>  
+            <div class="floating-card card-1">
+              <i class="bi bi-laptop"></i> Web Operations
+            </div>
+            <div class="floating-card card-2">
+              <i class="bi bi-cart4"></i> E-commerce
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <a href="#about"><i class="bi bi-chevron-double-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="py-section">
+    <div class="container">
+      <div class="section-header text-center mb-5 reveal">
+        <span class="section-tag">Về tôi</span>
+        <h2 class="section-title">Giới thiệu bản thân</h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-10 col-lg-8 reveal">
+          <div class="glass-card p-4 p-lg-5">
+            <p class="mb-4 fs-5">Là một sinh viên CNTT đam mê và nhiệt huyết với mong muốn phát triển trong ngành Thương mại Điện tử, tôi sở hữu các thế mạnh:</p>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="about-item d-flex gap-3 align-items-start">
+                  <div class="about-icon"><i class="bi bi-globe2"></i></div>
+                  <div><strong>Quản lý nội dung website</strong><p class="mb-0 text-muted small">CMS, cập nhật và tối ưu trang web hiệu quả</p></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="about-item d-flex gap-3 align-items-start">
+                  <div class="about-icon"><i class="bi bi-headset"></i></div>
+                  <div><strong>Hỗ trợ khách hàng online</strong><p class="mb-0 text-muted small">Tư vấn và chăm sóc khách hàng chuyên nghiệp</p></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="about-item d-flex gap-3 align-items-start">
+                  <div class="about-icon"><i class="bi bi-bar-chart-line"></i></div>
+                  <div><strong>Phân tích & giải quyết vấn đề</strong><p class="mb-0 text-muted small">Tư duy logic, đánh giá và xử lý tình huống</p></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="about-item d-flex gap-3 align-items-start">
+                  <div class="about-icon"><i class="bi bi-people-fill"></i></div>
+                  <div><strong>Làm việc nhóm hiệu quả</strong><p class="mb-0 text-muted small">Tinh thần kỷ luật và hợp tác tốt với đồng nghiệp</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section id="education" class="py-section bg-section">
+    <div class="container">
+      <div class="section-header text-center mb-5 reveal">
+        <span class="section-tag">Học vấn</span>
+        <h2 class="section-title">Hành trình học tập</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 reveal">
+          <div class="timeline-item glass-card p-4">
+            <div class="d-flex align-items-start gap-3">
+              <div class="timeline-icon">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-2">
+                  <h5 class="mb-0 fw-bold">Công nghệ Thông tin – Công nghệ phần mềm</h5>
+                  <span class="badge bg-primary-subtle text-primary rounded-pill px-3">2022 – nay</span>
+                </div>
+                <p class="mb-2 text-muted">
+                  <i class="bi bi-building me-1"></i>Đại học Tài Nguyên và Môi Trường TP Hồ Chí Minh
+                </p>
+                <div class="gpa-badge">
+                  <i class="bi bi-award-fill me-1"></i> GPA: <strong>3.58 / 4.0</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="py-section">
+    <div class="container">
+      <div class="section-header text-center mb-5 reveal">
+        <span class="section-tag">Kỹ năng</span>
+        <h2 class="section-title">Chuyên môn & Kỹ thuật</h2>
+      </div>
+      <div class="row g-4">
+        <!-- Technical Skills -->
+        <div class="col-lg-7 reveal">
+          <div class="glass-card p-4 h-100">
+            <h4 class="mb-4 fw-bold"><i class="bi bi-code-slash text-primary me-2"></i>Kỹ năng Kỹ thuật</h4>
+            <div class="skills-list">
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="fw-medium"><i class="bi bi-filetype-html me-1" style="color:#e34f26"></i>HTML</span>
+                  <span class="text-muted small">90%</span>
+                </div>
+                <div class="progress" style="height:8px;border-radius:8px">
+                  <div class="progress-bar bg-primary" data-width="90" style="width:0;border-radius:8px;transition:width 1.2s ease"></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="fw-medium"><i class="bi bi-filetype-css me-1" style="color:#1572b6"></i>CSS</span>
+                  <span class="text-muted small">85%</span>
+                </div>
+                <div class="progress" style="height:8px;border-radius:8px">
+                  <div class="progress-bar bg-primary" data-width="85" style="width:0;border-radius:8px;transition:width 1.2s ease"></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="fw-medium"><i class="bi bi-filetype-js me-1" style="color:#f7df1e"></i>JavaScript</span>
+                  <span class="text-muted small">80%</span>
+                </div>
+                <div class="progress" style="height:8px;border-radius:8px">
+                  <div class="progress-bar bg-primary" data-width="80" style="width:0;border-radius:8px;transition:width 1.2s ease"></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="fw-medium"><i class="bi bi-bootstrap-fill me-1" style="color:#7952b3"></i>Bootstrap</span>
+                  <span class="text-muted small">85%</span>
+                </div>
+                <div class="progress" style="height:8px;border-radius:8px">
+                  <div class="progress-bar bg-primary" data-width="85" style="width:0;border-radius:8px;transition:width 1.2s ease"></div>
+                </div>
+              </div>
+              <div class="skill-item mb-3">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="fw-medium"><i class="bi bi-leaf-fill me-1" style="color:#6db33f"></i>Spring Boot</span>
+                  <span class="text-muted small">75%</span>
+                </div>
+                <div class="progress" style="height:8px;border-radius:8px">
+                  <div class="progress-bar bg-primary" data-width="75" style="width:0;border-radius:8px;transition:width 1.2s ease"></div>
+                </div>
+              </div>
+              <div class="skill-item mb-0">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="fw-medium"><i class="bi bi-microsoft me-1" style="color:#5c2d91"></i>ASP.NET</span>
+                  <span class="text-muted small">70%</span>
+                </div>
+                <div class="progress" style="height:8px;border-radius:8px">
+                  <div class="progress-bar bg-primary" data-width="70" style="width:0;border-radius:8px;transition:width 1.2s ease"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Soft Skills -->
+        <div class="col-lg-5 reveal">
+          <div class="glass-card p-4 h-100">
+            <h4 class="mb-4 fw-bold"><i class="bi bi-person-check-fill text-primary me-2"></i>Kỹ năng Chuyên môn</h4>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="soft-skill-badge"><i class="bi bi-globe me-1"></i>Quản lý nội dung (CMS)</span>
+              <span class="soft-skill-badge"><i class="bi bi-headset me-1"></i>Hỗ trợ khách hàng online</span>
+              <span class="soft-skill-badge"><i class="bi bi-chat-quote me-1"></i>Giao tiếp</span>
+              <span class="soft-skill-badge"><i class="bi bi-search me-1"></i>Giải quyết vấn đề</span>
+              <span class="soft-skill-badge"><i class="bi bi-people me-1"></i>Làm việc nhóm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section id="experience" class="py-section bg-section">
+    <div class="container">
+      <div class="section-header text-center mb-5 reveal">
+        <span class="section-tag">Kinh nghiệm làm việc</span>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-9 reveal">
+          <div class="glass-card p-4 p-lg-5">
+            <div class="d-flex align-items-start gap-4">
+              <div class="exp-icon">
+                <i class="bi bi-briefcase-fill"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-1">
+                  <h5 class="fw-bold mb-0">Nhân viên CSKH & Quản lý mạng xã hội</h5>
+                  <span class="badge bg-success-subtle text-success rounded-pill px-3">2023 – 2024</span>
+                </div>
+                <p class="text-primary fw-medium mb-3"><i class="bi bi-person-workspace me-1"></i>Freelancer</p>
+                <ul class="exp-list list-unstyled mb-0">
+                  <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Tư vấn và hỗ trợ khách hàng qua chat, điện thoại và mạng xã hội.</li>
+                  <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Giải đáp thắc mắc và xử lý các vấn đề phát sinh một cách chuyên nghiệp.</li>
+                  <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Quản lý thông tin khách hàng và sắp xếp lịch hẹn hiệu quả.</li>
+                  <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Đăng tải và cập nhật nội dung định kỳ trên fanpage.</li>
+                  <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Theo dõi và phản hồi tin nhắn, bình luận của khách hàng nhanh chóng.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="py-section">
+    <div class="container">
+      <div class="section-header text-center mb-5 reveal">
+        <span class="section-tag">Dự án</span>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- Project Card -->
+        <div class="col-md-9 col-lg-7 reveal">
+          <div class="project-card glass-card h-100 overflow-hidden">
+            <div class="project-img-wrapper">
+              <!--              <img src="https://images.unsplash.com/photo-1571091013516-c8a9d5fe6f57?q=80&w=900&auto=format&fit=crop" alt="TeaCoffeeMap" class="project-img" />
+-->
+              <div class="project-overlay">
+                <a href="https://github.com/huyendao2201/Gis_TeaCoffeeMap" target="_blank" class="btn btn-light rounded-pill px-4">
+                  <i class="bi bi-github me-2"></i>Xem Github
+                </a>
+              </div>
+            </div>
+            <div class="p-4">
+              <div class="d-flex justify-content-between align-items-start mb-2 flex-wrap gap-2">
+                <h4 class="fw-bold mb-0">TeaCoffeeMap</h4>
+                <span class="badge bg-primary-subtle text-primary rounded-pill">2025</span>
+              </div>
+              <p class="text-muted small mb-3"><i class="bi bi-person-badge me-1"></i>Trưởng nhóm & Lập trình viên</p>
+              <p class="mb-3">Hệ thống tìm kiếm và đánh giá quán cà phê & trà sử dụng GIS. Xây dựng giao diện người dùng, quản lý nội dung và cấu trúc website; điều phối phân chia công việc theo tiến độ dự án.</p>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="tech-badge">Django</span>
+                <span class="tech-badge">VueJS</span>
+                <span class="tech-badge">GIS</span>
+              </div>
+              <a href="https://github.com/huyendao2201/Gis_TeaCoffeeMap" target="_blank" class="btn btn-primary rounded-pill px-4">
+                <i class="bi bi-github me-2"></i> Xem trên Github
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== 
+     <section id="contact" class="py-section bg-section">
+    <div class="container">
+      <div class="section-header text-center mb-5 reveal">
+        <span class="section-tag">Liên hệ</span>
+        <h2 class="section-title">Kết nối với tôi</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <div class="glass-card p-4 h-100">
+            <h5 class="fw-bold mb-4">Thông tin liên lạc</h5>
+            <div class="contact-info-item d-flex align-items-center gap-3 mb-3">
+              <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <p class="mb-0 small text-muted">Email</p>
+                <a href="mailto:huyendao22012003@gmail.com" class="fw-medium contact-link">huyendao22012003@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-info-item d-flex align-items-center gap-3 mb-3">
+              <div class="contact-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <p class="mb-0 small text-muted">Điện thoại</p>
+                <a href="tel:0703521574" class="fw-medium contact-link">0703521574</a>
+              </div>
+            </div>
+            <div class="contact-info-item d-flex align-items-center gap-3 mb-4">
+              <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <p class="mb-0 small text-muted">Địa chỉ</p>
+                <span class="fw-medium">TP Hồ Chí Minh</span>
+              </div>
+            </div>
+            <div class="d-flex gap-3">
+              <a href="https://github.com/huyendao2201" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 reveal">
+          <div class="glass-card p-4 p-lg-5">
+            <h5 class="fw-bold mb-4">Gửi lời nhắn</h5>
+            <form id="contactForm">
+              <div class="row g-3 mb-3">
+                <div class="col-sm-6">
+                  <label class="form-label fw-medium" for="cName">Tên của bạn</label>
+                  <input type="text" id="cName" class="form-control custom-input" placeholder="Nhập tên của bạn" required />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label fw-medium" for="cEmail">Email của bạn</label>
+                  <input type="email" id="cEmail" class="form-control custom-input" placeholder="Nhập email của bạn" required />
+                </div>
+              </div>
+              <div class="mb-4">
+                <label class="form-label fw-medium" for="cMessage">Nội dung tin nhắn</label>
+                <textarea id="cMessage" class="form-control custom-input" rows="5" placeholder="Bạn muốn nhắn gửi điều gì?" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">
+                <i class="bi bi-send-fill me-2"></i>Gửi tin nhắn
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   -->
+
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-4">
+          <h4 class="fw-bold mb-1">Thu Huyền</h4>
+        </div>
+        <div class="col-md-4 text-center">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="#about" class="footer-link">Giới thiệu</a></li>
+            <li class="list-inline-item"><a href="#projects" class="footer-link">Dự án</a></li>
+            <li class="list-inline-item"><a href="#contact" class="footer-link">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <p class="text-muted small mb-0">© 2026 Đào Thị Thu Huyền. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#home" id="scrollTop" class="scroll-top-btn d-none">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
